@@ -10,13 +10,18 @@
    text-transform: capitalize;
 }
 body{
-   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+   
+      background-image: linear-gradient(to bottom, #00b2d1, #24537a);
+      background-image: linear-gradient(to top, #00b2d1, #24507a);
 }
 
-h1 {
-   color: blueviolet;
-   transform: translate(-50% -50%);
+.glass{
+
    font-size: 6rem;
-   
+   color: #96c024;
+   width: 50%;
+   height: 50%;
+   display:inline;
+  
 
 }
