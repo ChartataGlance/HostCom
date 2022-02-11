@@ -24,7 +24,7 @@ body {
 	text-align: center;
 	font-size: 3rem;
 	position: absolute;
-	top: 55%;
+	top: 60%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -61,7 +61,7 @@ body {
 	left: 40%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	z-index: 2;
+	z-index: 3;
 	opacity: 0.3;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .tech {
-	margin-top: 100px;
+	margin-top: 50px;
 	-webkit-filter: contrast(2) invert(1) blur(10px);
 	filter: contrast(2) invert(1) blur(0px);
 	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.61),
@@ -89,6 +89,7 @@ body {
 	line-height: 1;
 	text-align: center;
 	color: #f0cc00;
+   z-index: 1;
 }
 
 .tech1 {
@@ -103,8 +104,4 @@ body {
 	color: #1b0e8b;
 }
 
-@media screen and (max-width: 768px) {
-	.glass h1 {
-		font-size: 3rem;
-	}
-}
+
