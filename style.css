@@ -16,16 +16,99 @@ body{
 }
 
 .glass{
-
-   font-size: 6rem;
-   color: #96c024;
-   display:inline;
+   height: 500px;
+   width: 500px;
+   margin: 0 auto;
+   border-radius: 60%;
+   background-image: linear-gradient(to top, #7d971e, #1b0e8b);
+   text-align: center;
+   font-size: 3rem;
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   z-index: 5;
+   
+}
+.glass3{
+   height: 500px;
+   width: 500px;
+   margin: 0 auto;
+   border-radius: 60%;
+   background-image: linear-gradient(to top, #7d971e, #1b0e8b);
+   background-image: linear-gradient(to top, #571e97, #24507a);
+   
+   top: 30%;
+   left: 60%;
+   -ms-transform: translate(-20%, -20%);
+   transform: translate(-20%, -40%);
+   z-index:2 ;
+   opacity: 0.3;
+   position: absolute;
+   
+}
+.glass1{
+   height: 700px;
+   width: 700px;
+   margin: 0 auto;
+   background-image: linear-gradient(to bottom, #393bad, #24537a) ;
+   background-image: linear-gradient(to top, #571e97, #24507a);
+   border-radius: 60%;
+   text-align: center;
+   font-size: 3rem;
   
+   position: absolute;
+   top: 40%;
+   left: 40%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   opacity: 0.3;
+   
+}
+
+.glass h1 {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   color: #d1ce00;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   -webkit-filter: contrast(2) invert(1) blur(10px);
+   filter: contrast(2) invert(1) blur(0px);
+   text-shadow: 3px 3px 13px rgba(0, 0, 0, 0.61), 3px 3px 13px rgba(0, 0, 0, 0.432);
+   
 
 }
 
+.tech {
+   margin-top: 100px;
+   -webkit-filter: contrast(2) invert(1) blur(10px);
+   filter: contrast(2) invert(1) blur(0px);
+   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.61), 3px 3px 10px rgba(0, 0, 0, 0.432);
+   font-size: 105px;
+   letter-spacing: 5px;
+   line-height: 1;
+   text-align: center;
+   color: #f0cc00;
+   
+ }
+
+.tech1{
+   
+   font-size: 105px;
+   text-align: center;
+   letter-spacing: 5px;
+   line-height: 1;
+   -webkit-filter: contrast(2) invert(1) blur(10px);
+   filter: contrast(2) invert(1) blur(10px);
+   text-shadow: 3px 3px 13px rgba(0, 0, 0, 0.61), 3px 3px 13px rgba(0, 0, 0, 0.432);
+   color: #1b0e8b;
+}
+
 @media screen and (max-width:768px) {
-   .glass{
-      font-size: 2rem;
+   .glass h1{
+      font-size: 3rem;
    }
 }
