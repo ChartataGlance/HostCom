@@ -66,26 +66,26 @@ body {
    background: rgba(255, 255, 255, 0.9);
    height: 200px;
    width: 200px;
-   background:-webkit-linear-gradient(342deg, rgba(11, 5, 95, 0.5) 20%, rgba(169, 207, 42,0.5) 72%);
+   background:-webkit-linear-gradient(342deg, rgba(11, 5, 95, 0.5) 20%, rgba(170, 218, 15, 0.5) 72%);
    background:-o-linear-gradient(342deg, #17116f 20%, #99c506 72%);
    background:-moz-linear-gradient(342deg, #17116f 20%, #a9cf2a 72%);
-   background:linear-gradient(342deg, rgba(23, 17, 111,0.3) 20%, rgba(192, 181, 19, 0.7) 72%);
-   
-   
+   background:linear-gradient(342deg, rgba(23, 17, 111,1) 30%, rgba(192, 181, 19, 1) 72%);
    border-radius: 50%;
-   align-self: center;
+  
 
 }
+
 .content .tech {
 	margin-top: 1rem;
-	font-size: 3rem;
-	-webkit-filter: contrast(2) invert(1) blur(2px);
-	filter: contrast(2) invert(1) blur(0px);
-	text-shadow: 3px 3px 2px rgba(27, 203, 216, 0.6),
-		3px 3px 2px rgba(19, 196, 209, 0.4);
-	color: #f0cc00;
+	font-size: 4rem;
+	-webkit-filter: contrast(2) invert(0) blur(10px);
+	filter: contrast(2) invert(0) blur(0px);
+	text-shadow: 1px 1px 10px rgba(7, 24, 26, 0.6),
+		1px 1px 10px rgba(11, 29, 31, 0.4);
+	color: #aaa9ad;
 	font-weight: 700;
 }
+
 
 .content .tech1 {
 	font-size: 1.6rem;
