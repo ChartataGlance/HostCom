@@ -1,0 +1,32 @@
+.glass2 {
+	color: #111a96;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	top: 20%;
+	left: 20%;
+	-ms-transform: translate(-20%, -20%);
+	transform: translate(-20%, -40%);
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 50%;
+	background-image: linear-gradient(to top, #7d971e, #1b0e8b);
+	background-image: linear-gradient(to top, #571e97, #24507a);
+	opacity: 0.3;
+}
+.glass3 {
+	color: #111a96;
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	top: 30%;
+	left: 30%;
+	-ms-transform: translate(-20%, -20%);
+	transform: translate(-20%, -40%);
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 50%;
+	background-image: linear-gradient(to top, #7d971e, #1b0e8b);
+	background-image: linear-gradient(to top, #571e97, #24507a);
+	opacity: 0.3;
+}
