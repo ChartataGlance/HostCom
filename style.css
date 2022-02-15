@@ -27,7 +27,7 @@ body {
 
 .showcase::after{
    content: '';
-   height: 85vh;
+   height: 70vh;
    width: 100%;
    background-image:url(./Groupchart.png) ;
    background-size: cover;
@@ -52,7 +52,7 @@ body {
 .content {
    position: absolute;
    z-index: 1;
-   top: 10%;
+   top: 0%;
    left: 50%;
    margin-top: 105px;
    margin-left: -145px;
@@ -64,6 +64,7 @@ body {
 }
 
 .content .logo {
+	
    background: rgba(255, 255, 255, 0.9);
    height:290px;
    width: 290px;
@@ -144,4 +145,20 @@ body {
 	padding: 2.2rem;
 	text-align: center;
 	margin: auto;
+}
+
+@media (max-width:760px) {
+	.showcase::after{
+		height: 100vh;
+	}
+	.content{
+		top: 10%;
+		margin-top: 10px;
+	}
+}
+@media  (max-height:500px) {
+	.showcase::after{
+		height: 100vh;
+	}
+	
 }
