@@ -24,8 +24,9 @@ body {
 	background: linear-gradient(to right top , #09157a,#4c8dd8);
 	
 }
-.topbar{
-	min-height: 5vh;
+
+.card{
+	height: 80vh;
 }
 
 .showcase::after{
