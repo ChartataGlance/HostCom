@@ -1,5 +1,6 @@
 /** @format */
 
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -18,15 +19,20 @@ nav {
 	min-height: 10vh;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	
+	
 }
+.nav .pagetitle {
+	margin-left: 20%;
 
+} 
 
 .nav-links {
 	display: flex;
 	justify-content: space-around;
-	width: 50%;
-   margin-left: 50%;
+	width: 60%;
+   
 }
+
 .nav-links a {
 	color: wheat;
 	text-decoration: none;
