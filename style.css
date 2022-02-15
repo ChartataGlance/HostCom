@@ -46,7 +46,7 @@ body {
 .showcase:hover .content{
    filter: blur(2px);
    -webkit-filter: blur(2px) ;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 .content {
@@ -65,15 +65,14 @@ body {
 
 .content .logo {
    background: rgba(255, 255, 255, 0.9);
-   height: 240px;
-   width: 240px;
+   height:290px;
+   width: 290px;
    background:-webkit-linear-gradient(342deg, rgba(11, 5, 95, 0.5) 20%, rgba(170, 218, 15, 0.5) 72%);
    background:-o-linear-gradient(342deg, #17116f 20%, #99c506 72%);
    background:-moz-linear-gradient(342deg, #17116f 20%, #a9cf2a 72%);
    background:linear-gradient(342deg, rgb(134, 86, 14) 30%, rgb(22, 19, 192) 72%);
    border-radius: 50%;
-	
-  
+	box-shadow: inset 10px 2px 35px #fff ,inset -1px -1px 1px #fff;
 
 }
 
