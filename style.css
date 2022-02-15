@@ -52,6 +52,9 @@ body {
 	opacity: 0.2;
 }
 
+.dimm {
+	opacity: 0.2;
+}
 .content {
    position: absolute;
    z-index: 1;
