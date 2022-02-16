@@ -1,0 +1,64 @@
+
+
+#tab-1-content .tab-1-content-inner{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.text-xl{
+   position: relative;
+   font-size: 2rem;
+   margin-bottom: 2rem;
+}
+.text-lg {
+   position: relative;
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
+   width: 350px; 
+   border: 1px solid #000000;
+   text-align: justify;
+   
+}
+.text-lg p {
+   word-wrap: break-word;
+}
+
+.tab-content {
+   padding: 3rem 0;
+   background: black;
+}
+
+.flexbox{
+   display: flex;
+}
+.flexboxl{
+   display: flex;
+   flex-direction: column;
+}
+.flexboxr{
+   height: 800;
+   width: 600;
+   margin: 0 auto;
+}
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+   display: none;
+}
+
+.show{
+   display: block !important;
+}
+
+@media screen and  (max-width:1200px){
+   .flexbox{
+      flex-direction: column;
+      margin: 0 auto;
+   }
+  
+}
+

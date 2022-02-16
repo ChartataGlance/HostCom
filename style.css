@@ -83,7 +83,7 @@ body {
 
 .content .tech {
 	margin-top: 1rem;
-	font-size: 4rem;
+	font-size: 3rem;
 	-webkit-filter: contrast(2) invert(0) blur(10px);
 	filter: contrast(2) invert(0) blur(0px);
 	text-shadow: 1px 1px 10px rgba(7, 24, 26, 0.6),
@@ -110,7 +110,7 @@ body {
 
 
 .tabs {
-	padding-top: 1rem;
+	padding-top: 1.5rem;
 	border-bottom: 1px solid var(--varcolor-gray);
 }
 .tabs .container {
@@ -123,18 +123,19 @@ body {
 }
 .container {
 	max-width: 80%;
+
 	margin: auto;
 	overflow: hidden;
 	padding: 0 5rem;
 }
 
 .tabs p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding-top: 0.5rem;
 }
 
 .tabs .container > div {
-	padding: 1.5rem 1rem;
+	padding: 1.5rem 2rem;
 }
 
 .tabs .container > div:hover {
@@ -143,7 +144,7 @@ body {
 }
 .tab-border {
 	border-bottom: red 4px solid;
-	box-shadow: 1px 1px 20px 0px rgba(166, 157, 204, 0.5);
+	box-shadow: 3px 3px 20px 0px rgba(166, 157, 204, 0.5);
 }
 .footer{
 	padding: 2.2rem;
@@ -151,18 +152,14 @@ body {
 	margin: auto;
 }
 
-@media (max-width:760px) {
-	.showcase::after{
-		height: 100vh;
-	}
+@media screen and (max-width:760px) {
 	.content{
 		top: 10%;
 		margin-top: 10px;
+
 	}
-}
-@media  (max-height:500px) {
-	.showcase::after{
-		height: 100vh;
+	.content .logo {
+		height: 200px;
+		width: 200px;
 	}
-	
 }
