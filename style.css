@@ -22,12 +22,9 @@
 body {
    margin: 0;
 	background: linear-gradient(to right top , #09157a,#4c8dd8);
-	
 }
 
-.card{
-	height: 80vh;
-}
+
 
 .showcase::after{
    content: '';
