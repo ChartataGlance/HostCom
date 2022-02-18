@@ -20,7 +20,7 @@
 }
 
 body {
-   margin: 0;
+
 	background: linear-gradient(to right top , #09157a,#4c8dd8);
 }
 
@@ -64,7 +64,6 @@ body {
    height: 400px;
    text-align: center;
    transition: all 1000ms;
-
 }
 
 .content .logo {
@@ -125,7 +124,7 @@ body {
 	max-width: 80%;
 
 	margin: auto;
-	overflow: hidden;
+	
 	padding: 0 5rem;
 }
 
